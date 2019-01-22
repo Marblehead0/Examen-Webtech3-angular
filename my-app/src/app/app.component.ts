@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {LocalStorageModule} from 'angular-2-local-storage';
+import {HttpClientModule} from '@angular/common/http';
+import { from } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +11,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-app';
 
-  
+
 }
